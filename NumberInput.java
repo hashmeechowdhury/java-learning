@@ -13,6 +13,6 @@ public class NumberInput {
         num2 = scan.nextDouble();
 
         System.out.println("The integer number is " + num1 + "\n" + "The decimal number is " + num2);
-
+        scan.close();
     }
 }

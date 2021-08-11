@@ -23,6 +23,8 @@ public class UserInfo {
         System.out.println("Your place is " + place);
         System.out.println("Your hobby is " + hobby);
 
+        oo.close();
+
     }
 
 }
