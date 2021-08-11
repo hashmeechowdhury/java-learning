@@ -24,3 +24,4 @@ public class President {
 }
 
 // Cannot compare strings with relational operators
+// equalsIgnoreCase("Yes") so lowecase yes won't bother
