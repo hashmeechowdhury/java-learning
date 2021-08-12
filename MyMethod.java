@@ -4,6 +4,11 @@ public class MyMethod {
         displayMessage();
         displayMessage1("Hello", 3);
         displayMessage1("Bye", 3);
+        System.out.println(sum(2, 3));
+    }
+
+    public static double sum(double a, double b) {
+        return (a + b);
     }
 
     public static void displayMessage() {
