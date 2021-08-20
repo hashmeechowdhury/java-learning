@@ -63,6 +63,7 @@ public class Person {
 
         public void printEmployee() {
             System.out.println("The Person Record: ");
+            super.print();
             System.out.println("Hired date = " + hireDate);
             System.out.println("Yearly = " + salary);
         }
@@ -87,7 +88,7 @@ public class Person {
         objEmployee.setHireDate("03/09/2004");
         objEmployee.setSalary(45000.00);
 
-        objEmployee.print();
+        // objEmployee.print();
         objEmployee.printEmployee();
     }
 
