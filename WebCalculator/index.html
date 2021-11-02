@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Calculator Demo</h1>
+    <form name="myForm" id="myForm">
+        <input type="text" name="name" id="number1" size="10" required>
+        <select name="name" id="operator">
+            <option value="add">+</option>
+            <option value="subtract">-</option>
+            <option value="multiply">*</option>
+            <option value="divide">/</option>
+        </select>
+        <input type="text" name="name" id="number2" size="10" required>
+        <button onclick="calculateResult()">Submit</button>
+    </form>
+</body>
+<script src="./calculator.js"></script>
+</html>
